@@ -7,8 +7,8 @@
 
 
 <div style="display: inline_block">
-<img align="center" alt="css" src="![5b237a7cea854127fa2bec300f2dbf32 (1) (1)](https://github.com/user-attachments/assets/8afb0b5b-643d-49b9-9b49-1f2ebc88a4f7)
-" />
+<img align="center" alt="css" src="https://i.pinimg.com/originals/5b/23/7a/5b237a7cea854127fa2bec300f2dbf32.png"  width="330"
+    height="230" />
 
 </div><br/>
 
