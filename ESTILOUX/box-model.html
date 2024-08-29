@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box-model</title>
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+    body {
+        background-color: #dbe1ffbb;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100vh;/
+    }
+
+
+    article {
+        text-align: center;
+        width: 200px;
+        height: 200px;
+        border: 1px dashed rgba(0, 123, 255, 0.988);
+        border-radius: 10px;
+        box-shadow: 3px 2px 5px rgba(0, 0, 0, 0.5);
+        background-color: powderblue;
+    }
+
+
+    .caixa-azul {
+        background-color: cyan;
+ 
+    }
+
+
+    article img {
+        width: 60px;
+    }
+
+
+    article h1 {
+        padding: 15px;
+        font-size: 18px;
+        font-family: 'Courier New', Courier, monospace;
+        text-transform: capitalize;
+    }
+
+
+    article p {
+        font-family: cursive;
+        font-size: 14px;
+    }
+</style>
+
+<body>
+    <article>
+        <img src="imageens/Lightning Bolt (2).svg" alt="imagem de um raio">
+        <h1>Web design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </article>
+
+    <article class="caixa-azul"> <!-- Aplicando a classe .caixa-azul -->
+        <img src="imageens/Forward Arrow.svg" alt="imagem de uma seta">
+        <h1>graphics design</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p>
+    </article>
+
+    <article>
+        <img src="imageens/Opened Folder.svg" alt="imagem de uma pasta aberta">
+        <h1>Ui/Ux design</h1>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam</p>
+    </article>
+</body>
+
+</html>

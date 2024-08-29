@@ -1,36 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>flex-box</title>
     <style>
-section {
-    display: flex;
-    justify-content: space-between;
-  width: 700px;
-  height: 500px;
-  margin-left: auto;
-  margin-right: auto;
-  border: 3px dotted black;
-}
-article{
-    width: 100px;
-    height: 100px;
-    margin-bottom: 10px;
-    background-color: salmon;
-    border: 5px;
-    border-radius: 5px;
-}
-    
+        section {
+            display: flex;
+            flex-direction: row;
+            justify-content:space-between  ;
+            align-items: stretch;
+            width: 700px;
+            flex-wrap: wrap;
+            height: 500px;
+            margin-left: auto;
+            margin-right: auto;
+            border: 3px dotted black;
+        }
+
+        article {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            width: 100px;
+            height: 100px;
+            margin-bottom: 10px;
+            background-color: salmon;
+            border: 5px;
+            border-radius: 5px;
+        }
     </style>
+
 </head>
+
 <body>
     <section>
- <article></article>
- <article></article>
- <article></article>
-
+<article>item 1</article>
+<article>item 2</article>
+<article>item 3</article>
+<article>item 4</article>
+<article>item 5</article>
+<article>item 6</article>
+<article>item 7</article>
+<article>item 8</article>
+<article>item 9</article>
+<article>item 10</article>
     </section>
 </body>
+
 </html>
